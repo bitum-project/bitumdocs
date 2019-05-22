@@ -1,6 +1,5 @@
 # bitumdocs
 
-[![Build Status](https://travis-ci.org/bitum/bitumdocs.png?branch=master)](https://travis-ci.org/bitum/bitumdocs)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 
 `bitumdocs` is source code for the [Bitum project documentation](https://docs.bitum.io).
