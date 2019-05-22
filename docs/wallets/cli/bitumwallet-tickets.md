@@ -60,7 +60,7 @@ To allow a VSP to vote for you, you first have to sign up for a VSP. A list of t
 
         {
           "isvalid": true,
-          "address": "DsExampleAddr1For2Demo3PurposesOnly",
+          "address": "B1ExampleAddr1For2Demo3PurposesOnly",
           "ismine": true,
           "pubkeyaddr": "DkExample0Addr1For2Demo4Purposes5Only6Do7Not8Use9Pls0",
           "pubkey": "022801337beefc0ffee1dab8d4ffa898a782466c9a1fc00ca8863de5438dc07dcc",
@@ -110,7 +110,7 @@ Your `ticketfee` is the BITUM/kB rate you'll pay to have your ticket purchase be
 
 Why are ticket fees important? Usually the default fee of 0.0001 is enough to get your tickets mined, however there are extremely rare circumstances where an increased ticket fee may be beneficial. When ticket demand outpaces supply (there are only a maximum of 2880 tickets available at each price interval) a situation is created where stakeholders can increase their ticket fees in order to get their ticket purchases mined ahead of others offering lower fees. This type of "fee wars" scenario has not occurred since the new ticket price algorithm was introduced in July 2017.
 
-Third party sites such as <https://bitumstats.com> can be used to find the average ticket fee in the mempool.
+Third party sites such as <https://stats.bitum.io> can be used to find the average ticket fee in the mempool.
 
 ##### Ticket Price
 
@@ -139,7 +139,7 @@ To purchase tickets with their voting rights delegated to a VSP, we have to use 
 
 A quick example:
 
-`bitumctl --wallet purchaseticket "default" 23 1 DcExampleAddr1For2Demo3PurposesOnly 1 DsExampleAddr1For2Demo3PurposesOnly 7.5` would use BITUM from your `default` account to purchase 1 ticket if the current ticket price is a max of 23 BITUM. The P2SH Address received from the VSP is `DcExampleAddr1For2Demo3PurposesOnly` and their fee address is `DsExampleAddr1For2Demo3PurposesOnly`. They will collect a 7.5% fee if this ticket successfully votes. This ticket will not expire from the mempool until the ticket price changes, as only 7 arguments were specified (no `expiry`).
+`bitumctl --wallet purchaseticket "default" 23 1 B1ExampleAddr1For2Demo3PurposesOnly 1 B1ExampleAddr1For2Demo3PurposesOnly 7.5` would use BITUM from your `default` account to purchase 1 ticket if the current ticket price is a max of 23 BITUM. The P2SH Address received from the VSP is `B1ExampleAddr1For2Demo3PurposesOnly` and their fee address is `B1ExampleAddr1For2Demo3PurposesOnly`. They will collect a 7.5% fee if this ticket successfully votes. This ticket will not expire from the mempool until the ticket price changes, as only 7 arguments were specified (no `expiry`).
 
 ---
 

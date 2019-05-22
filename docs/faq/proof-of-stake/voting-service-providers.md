@@ -58,14 +58,3 @@ Continue to [PoS Voting Tickets FAQ](voting-tickets.md)
 #### 8. What happens if my Voting Service Provider (VSP) goes down?
 
 In the unlikely scenario your VSP goes down permanently, you can still vote your tickets, as well as revoke a missed or expired ticket. Voting rights are assigned to a 1-of-2 multisig address, where one of the required keys belongs to your wallet. This allows you to configure a wallet with your VSP's pool script imported and set it up for solo voting, essentially becoming your own VSP. This will allow you to vote or revoke tickets. Note that the VSP's pool script is necessary to perform these actions. For this reason, it is important to always keep a backup of your VSP's pool script, which can be found on your VSPs webpage. For details on setting up a wallet for solo voting, see the [Solo Proof-of-Stake (PoS) Voting](../../advanced/solo-proof-of-stake-voting.md) page.
-
----
-
-## <img class="bitum-icon" src="/img/bitum-icons/Sources.svg" /> Sources 
-
-[^9262]: Bitum Forum, [Post 9,262](https://forum.bitum.io/threads/626/#post-9262)
-[^9274]: Bitum Forum, [Post 9,274](https://forum.bitum.io/threads/626/#post-9274)
-[^9311]: Bitum Forum, [Post 9,311](https://forum.bitum.io/threads/582/page-2#post-9311)
-[^13607]: Bitum Forum, [Post 13,607](https://forum.bitum.io/threads/1236/#post-13607)
-[^14593]: Bitum Forum, [Post 14,593](https://forum.bitum.io/threads/1321/#post-14593)
-[^17515]: Bitum Forum, [Post 17,515](https://forum.bitum.io/threads/1289/#post-17515)

@@ -35,9 +35,3 @@ The RFPs were stored on GitHub and they can still be viewed. The first, [RFP-001
 
 The RFP process worked well for certain types of tasks, however a need arose to have contributors engaged and compensated over the longer term and on a more flexible basis[^2]. In January 2017 the RFP system was changed to a contractor model and Bitum began to hire its first contractors. In October 2018 [Politeia](../governance/politeia/overview.md) launched, this augments the contractor model by facilitating decision-making about the work which should be funded.
 
----
-
-## <img class="bitum-icon" src="/img/bitum-icons/Sources.svg" /> Sources 
-
-[^1]: Bitum Forum, [RFP - Status And Expenditures](https://forum.bitum.io/threads/status-and-expenditures.2864/)
-[^2]: Bitum Blog, [2017 Bitum Roadmap](https://blog.bitum.io/2017/01/09/2017-Bitum-Roadmap/)

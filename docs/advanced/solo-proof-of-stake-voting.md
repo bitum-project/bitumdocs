@@ -94,15 +94,15 @@ The next step will be to start buying tickets manually or using `ticketbuyer` in
 
 Now from your cool wallet you can purchase tickets using the following command once your wallet is unlocked:
 
-`bitumctl --wallet purchaseticket default 150 1 DsHotWalletAddressFromVotingWallet 10`
+`bitumctl --wallet purchaseticket default 150 1 B1HotWalletAddressFromVotingWallet 10`
 
-Replacing `DsHotWalletAddressFromVotingWallet` with your hot wallet voting address, which you will generate when you set up your remote servers for voting, and using the command above will attempt to purchase `10` tickets with a max price of `150` BITUM each and delegate voting rights to your hot wallets.
+Replacing `B1HotWalletAddressFromVotingWallet` with your hot wallet voting address, which you will generate when you set up your remote servers for voting, and using the command above will attempt to purchase `10` tickets with a max price of `150` BITUM each and delegate voting rights to your hot wallets.
 
-If you wish to automate ticket purchases using ticketbuyer you will need to add the following info in your `~/.bitumwallet/bitumwallet.conf`, where `DsHotWalletAddressFromVotingWallet` is once again the address you generated on your voting VPS.
+If you wish to automate ticket purchases using ticketbuyer you will need to add the following info in your `~/.bitumwallet/bitumwallet.conf`, where `B1HotWalletAddressFromVotingWallet` is once again the address you generated on your voting VPS.
 
 ```no-highlight
 enableticketbuyer=1
-ticketbuyer.votingaddress=DsHotWalletAddressFromVotingWallet
+ticketbuyer.votingaddress=B1HotWalletAddressFromVotingWallet
 ticketbuyer.balancetomaintainabsolute=0
 ```
 
@@ -198,7 +198,7 @@ Now we will generate an address which we will use to delegate voting rights usin
 
 `bitumctl --wallet getnewaddress`
 
-Copy that address and use it for your cool wallet instead of the example `DsHotWalletAddressFromVotingWallet`.
+Copy that address and use it for your cool wallet instead of the example `B1HotWalletAddressFromVotingWallet`.
 
 You are free to close your `SSH` session and everything that is in a `tmux` session will continue running. You can reconnect and attach to the `bitumd` and `bitumwallet` sessions to verify this.
 

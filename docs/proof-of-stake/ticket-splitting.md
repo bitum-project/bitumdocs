@@ -17,7 +17,7 @@ If you prefer video, try this [tutorial](https://www.youtube.com/watch?v=9L8P7hL
 
 - **Bitum wallet:** You will need [Bitum](../wallets/bitum/bitum-setup.md) to run the Split Ticket Buyer.
 - **5 BITUM:** A minimum of 5 BITUM (plus transaction fees) is required to participate in ticket splitting. This must be in your Bitum wallet, not on an exchange.
-- **Split Ticket Buyer:** This is the software that coordinates ticket splitting with other participants. To install it, download a binary release for your OS [here](https://github.com/matheusd/bitum-split-ticket-matcher/releases/) or [build from source](https://github.com/matheusd/bitum-split-ticket-matcher/blob/master/docs/building.md).
+- **Split Ticket Buyer:** This is the software that coordinates ticket splitting with other participants
 
 ---
 
@@ -31,29 +31,21 @@ Coordination of sessions is currently done on Bitum's Slack group in the #ticket
 
 #### Consensus Rule Voting
 
-Voting rights for consensus rule voting are assigned pseudorandomly to a single participant, based on the  percentage of their contribution. I.e., if someone purchases 60% of a split ticket, they have a 60% chance of being selected as the voter for that ticket. Further details about the voting algorithm can be found [here](https://github.com/matheusd/bitum-split-ticket-matcher/blob/master/docs/voter-selection-ago.md).
+Voting rights for consensus rule voting are assigned pseudorandomly to a single participant, based on the  percentage of their contribution. I.e., if someone purchases 60% of a split ticket, they have a 60% chance of being selected as the voter for that ticket.
 
 #### Politeia Voting
 
 Rights for voting on Politeia proposals are granted to the biggest contributor of a split-ticket. The biggest contributor can vote on proposals in Bitum or via the CLI using `politeiavoter`, exactly as if they had purchased a whole ticket.
 
-### Further reading
-
-For more on ticket splitting, including further explanation of the risks involved, voting, and technical specs of the Split Ticket Buyer software, see the following:
-
-- [BITUM Ticket Splitting — All you need to know!](https://medium.com/bitum/bitum-ticket-splitting-all-you-need-to-know-b8edc6b65db3): a thorough overview of how ticket splitting works.
-- [Split Ticket Buyer documentation](https://github.com/matheusd/bitum-split-ticket-matcher/tree/master/docs): Technical documentation for the Split Ticket Matcher software used to facilitate ticket splitting.
-
 ---
 
 ## Setting up Ticket Splitting
 
-These instructions will walk you through buying a ticket using the GUI version of Split Ticket Buyer. For instructions on installing the Command-line Interface (CLI) version, see [here](https://github.com/matheusd/bitum-split-ticket-matcher/blob/master/docs/client-cli.md).
+These instructions will walk you through buying a ticket using the GUI version of Split Ticket Buyer. For instructions on installing the Command-line Interface (CLI) version.
 
 1. Create an account with a Voting Service Provider (VSP) that supports ticket splitting. Below is a list of VSPs that support ticket splitting.
 
-    - [https://stake.bitumbrasil.com](https://stake.bitumbrasil.com)
-    - [https://bitumvoting.com](https://bitumvoting.com/)
+    - [https://stake.bitum.io](https://stake.bitum.io)
 
 1. Login to your VSP and navigate to the `Settings` tab. Copy the API token.
 
@@ -67,11 +59,6 @@ These instructions will walk you through buying a ticket using the GUI version o
 
     ![Configured Bitum Stakepool](../img/ticket_splitting_config_stakepool.png)
 
-1. Download the Split Ticket Matcher software for your OS.
-
-    - Split Ticket Matcher [downloads](https://github.com/matheusd/bitum-split-ticket-matcher/releases/).
-    - Split Ticket Matcher instructions on [building from source](https://github.com/matheusd/bitum-split-ticket-matcher/blob/master/docs/building.md).
-
 1. Run the `splitticketbuyergui` executable. This will open the Split Ticket Buyer GUI (shown below).
 
     ![Split Ticket Buyer config menu](../img/ticket_splitting_gui.png)
@@ -83,8 +70,6 @@ These instructions will walk you through buying a ticket using the GUI version o
 1. Enter the amount of BITUM you wish to put into your split ticket. Currently, only integer numbers are supported in the GUI version of Split Ticket Buyer. In the CLI version you can purchase arbitrary amounts. The minimum amount of BITUM you can contribute is 5 BITUM. Transaction fees will be automatically calculated by the Split Ticket Buyer and added to your pledged amount when the ticket is purchased. Transaction fees will vary based on the number of participants in the split ticket. A typical transaction fee might be 0.003 BITUM. If you have more than 0.1 BITUM in your wallet for fees, that should be more than enough.  
 
     ![Split Ticket Buyer config menu](../img/split_ticket_buyer_amount.png)
-
-1. Pick a session to join. Public session names can typically be found on the websites of VSPs that support ticket splitting, or in the ticket splitting chat channels (#ticket_splitting channel on Bitum's Slack group or in the Telegram group located [here](https://t.me/bitumtktsplit)).
 
 1. Enter the name of the ticket buying session you want to join and your wallet passphrase. Then click `Participate` to join the session. In the screenshot below, we're joining a public session, `bitumvoting1`. You can also create private sessions with other participants. All that is required to create a private session is for all participants to use the same session name.
 
@@ -98,7 +83,7 @@ These instructions will walk you through buying a ticket using the GUI version o
 
 1. Wait for the amount of pledged BITUM to reach the ticket price. While the time this takes can vary, public sessions are fairly active and often reach the ticket price in about a day.
 
-    Once the amount in the pool reaches the current ticket price, all participating wallets will automatically buy their portion of the ticket. At this point, the Split Ticket Buyer outputs details about the purchased ticket, including the amount contributed by other participants and who was selected to [vote](https://github.com/matheusd/bitum-split-ticket-matcher/blob/master/docs/voter-selection-ago.md).
+    Once the amount in the pool reaches the current ticket price, all participating wallets will automatically buy their portion of the ticket.
 
     ![Split Ticket Buyer config menu](../img/split_ticket_successful_purchase.png)
 
@@ -118,4 +103,4 @@ In this case, you may need to manually update a parameter value in the `splittic
 
 ### General help
 
-General technical support is often available in the #ticket_splitting channel on Bitum's Slack group, or in the Telegram group located [here](https://t.me/bitumtktsplit).
+General technical support is often available in the #ticket_splitting channel on Bitum's group.

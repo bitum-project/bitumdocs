@@ -8,22 +8,9 @@ The most commonly used address currently is the Pay-to-PubkeyHash (P2PKH) type, 
 
 ## Address format
 
-Each address has a 2-byte prefix than can be used to identify its type, and a checksum suffix to detect improperly entered addresses. The first byte of the prefix identifies the network. Mainnet addresses start with `D`, testnet addresses start with `T`, simnet addresses start with `S`, and regnet addresses start with `R`. The second byte identifies the address type. Pay-to-PubkeyHash (P2PKH) addresses, for example, contain a lowercase `s` in the second byte. So, a P2PKH address on mainnet will begin with`Ds`, as shown in the sample address below.  
+Each address has a 2-byte prefix than can be used to identify its type, and a checksum suffix to detect improperly entered addresses. The first byte of the prefix identifies the network. Mainnet addresses start with `B`, testnet addresses start with `T`, simnet addresses start with `S`, and regnet addresses start with `R`. The second byte identifies the address type. Pay-to-PubkeyHash (P2PKH) addresses, for example, contain a lowercase `s` in the second byte. So, a P2PKH address on mainnet will begin with`B1`, as shown in the sample address below.  
 
-```DsExampleAddr1For2Demo3PurposesOnly```
-
-The table below provides the locking script and prefix details for each address type.
-
-| Address Type                                            | Locking Script | Mainnet | Testnet | Simnet | Regnet | Prefix Size (byte)
-| ---                                                     | ---            | ---     | ---     | ---    | ---    | ---
-| Pay-to-Pubkey                                           | P2Pk           | Dk      | Tk      | Sk     | Rk     | 2
-| Pay-to-PubkeyHash                                       | P2PKH          | Ds      | Ts      | Ss     | Rs     | 2
-| Pay-to-PubkeyHash <br/ > (Edwards Address ID)           | P2PKH          | De      | Te      | Se     | Re     | 2
-| Pay-to-PubkeyHash <br/ > (secp256k1 Schnorr Address ID) | P2PKH          | DS      | TS      | SS     | RS     | 2
-| Pay-to-Script-Hash                                      | P2SH           | Dc      | Tc      | Sc     | Rc     | 2
-| Wallet Import format <br/ > (Private Key ID)            | WIF            | Pm      | Pt      | Ps     | Pr     | 2
-| Hierarchical deterministic <br/ >(Private Key ID)       | HD             | dprv    | tprv    | sprv   | rprv   | 4
-| Hierarchical deterministic <br/ > (Public Key ID)       | HD             | dpub    | tpub    | spub   | rpub   | 4
+```B1xAWYg2eAyXhbetkLTMWmWN3Ub8AZfkeTq```
 
 ## P2PKH address generation flow
 

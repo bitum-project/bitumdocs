@@ -9,12 +9,7 @@ are visible through the use of these block explorers.
 
 * The explorer based on 
 [bitumdata](https://github.com/bitum-project/bitumdata) is located at
-[`https://explorer.bitum.io`](https://explorer.bitum.io) or
-[`https://testnet.bitum.io`](https://testnet.bitum.io).
-* The explorer based on
-[insight](https://github.com/bitpay/insight-ui) is located at
-[`https://mainnet.bitum.io`](https://mainnet.bitum.io) or 
-[`https://testnet.bitum.io`](https://testnet.bitum.io).
+[`https://explorer.bitum.io`](https://explorer.bitum.io)
 
 Below is a quick review of some of the information on them.
 

@@ -40,7 +40,7 @@ Proof-of-Stake (PoS) voting is performed by stakeholders who lock a certain amou
 
 ## <img class="bitum-icon" src="/img/bitum-icons/Credits.svg" /> Contribute to Bitum
 
-Bitum is currently recruiting contractors - members of the community who are paid in Bitum for their contributions. Check out [the recruitment page](https://www.bitum.io/recruiting/) for details and how to get involved.
+Bitum is currently recruiting contractors - members of the community who are paid in Bitum for their contributions. Check out [the recruitment page](https://bitum.io/recruiting/) for details and how to get involved.
 
 ---
 

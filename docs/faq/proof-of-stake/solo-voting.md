@@ -37,12 +37,3 @@ You can have multiple voting-only wallets because they are not creating new addr
 If you are doing a hot/cold setup, you can create multiple voting-only hot wallets without any issues so long as they both are aware of the address you give voting rights to.
 
 Continue to [Voting Service Providers FAQ](voting-service-providers.md)
-
----
-
-## <img class="bitum-icon" src="/img/bitum-icons/Sources.svg" /> Sources 
-
-[^9304]: Bitum Forum, [Post 9,304](https://forum.bitum.io/threads/626/page-2#post-9304)
-[^9311]: Bitum Forum, [Post 9,311](https://forum.bitum.io/threads/582/page-2#post-9311)
-[^9806]: Bitum Forum, [Post 9,806](https://forum.bitum.io/threads/180/page-6#post-9806)
-[^12697]: Bitum Forum, [Post 12,697](https://forum.bitum.io/threads/1127/#post-12697)

@@ -60,14 +60,3 @@ Missed tickets are tickets that were called to vote, but did not. After a ticket
 All `rebroadcastmissed` does is tell the wallet to ask the network daemon (`bitumd`) to give it the list of missed tickets again to double check if any need to be revoked. Typically this is not needed unless, for example, an attempt to revoke a ticket was made but failed because the wallet was locked. In other words, if you notice that revoked does not equal missed, you might need to `rebroadcastmissed`. As said though, there is rarely a need for this since the wallet automatically does it on startup and looks for missed tickets on every block.
 
 Continue to [Proof-of-Work Mining](../../mining/overview.md)
-
----
-
-## <img class="bitum-icon" src="/img/bitum-icons/Sources.svg" /> Sources 
-
-[^7969]: Bitum Forum, [Post 7,969](https://forum.bitum.io/threads/531/#post-7969)
-[^8965]: Bitum Forum, [Post 8,965](https://forum.bitum.io/threads/531/page-2#post-8965)
-[^9806]: Bitum Forum, [Post 9,806](https://forum.bitum.io/threads/180/page-6#post-9806)
-[^10219]: Bitum Forum, [Post 10,219](https://forum.bitum.io/threads/180/page-6#post-10219)
-[^13912]: Bitum Forum, [Post 13,912](https://forum.bitum.io/threads/1271/#post-13912)
-[^14763]: Bitum Forum, [Post 14,763](https://forum.bitum.io/threads/1335/#post-14763)

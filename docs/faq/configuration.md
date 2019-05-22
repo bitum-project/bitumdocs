@@ -56,13 +56,3 @@ On the other hand, the `bitumwallet` that contains your funds, for best security
 There is an intentional unconfigurable limit of 8 outbound peers[^15399]. More outbound peers than that does not help you in any way and is actually worse for both you and the network. This has been tested extremely thoroughly in Bitcoin, including btcsuite (the upstream project for Bitum). All you would do by upping your outbound connections is waste valuable slots of the relatively few public peers there are (there are always a much higher number of "leechers" than there are "seeders").
 
 On the other hand, increasing your maximum connections, which really just increases the number of allowed inbound connections, helps the network by ensuring there are more slots available for new nodes and [SPV](../wallets/spv.md) clients.
-
----
-
-## <img class="bitum-icon" src="/img/bitum-icons/Sources.svg" /> Sources 
-
-[^8929]: Bitum Forum, [Post 8,929](https://forum.bitum.io/threads/600/#post-8929)
-[^9055]: Bitum Forum, [Post 9,062](https://forum.bitum.io/threads/472/page-12#post-9062)
-[^9264]: Bitum Forum, [Post 9,264](https://forum.bitum.io/threads/626/#post-9264)
-[^11480]: Bitum Forum, [Post 11,480](https://forum.bitum.io/threads/428/#post-11480)
-[^15399]: Bitum Forum, [Post 15,399](https://forum.bitum.io/threads/1371/page-2#post-15399)

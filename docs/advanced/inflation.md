@@ -20,7 +20,7 @@ The following chart shows an estimate of the coin supply growth over time.
 
 ![Bitum supply chart](/img/bitum_supply.png)
 
-The table below shows the estimated block reward and estimated total supply of Bitum up to block 2,457,600 in 2039. Note that the total supply of BITUM at block 1 is 1,680,000 due to the [premine](premine.md). There was no block reward for proof-of-work miners in block 1, which allowed miners to voluntarily choose whether or not to accept the terms of the airdrop independent of a potential reward which could skew the incentive. PoS voting started at block 4,096[^3] therefore PoS rewards were not generated before that height.
+The table below shows the estimated block reward and estimated total supply of Bitum up to block 2,457,600 in 2039. There was no block reward for proof-of-work miners in block 1, which allowed miners to voluntarily choose whether or not to accept the terms of the airdrop independent of a potential reward which could skew the incentive. PoS voting started at block 4,096[^3] therefore PoS rewards were not generated before that height.
 
 Block height | Estimated date     | Block reward (BITUM) | PoW (BITUM)    | PoS vote (BITUM) | Bitum Treasury (BITUM) | Total BITUM supply
 ------------ | ------------------ | ------------------ | ------------ | -------------- | ----------------- | ----------------

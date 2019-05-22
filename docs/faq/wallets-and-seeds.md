@@ -12,7 +12,7 @@ The safest method of storing your seed is on a physical medium, eg. written on p
 
 #### 2. How can I convert my wallet seed hex to seed words?
 
-You can use the [bitumseedhextowords](https://github.com/davecgh/bitumseedhextowords)[^8660] utility to convert a Bitum seed from hex to the seed words needed for importing into wallets.
+You can use the [dcrseedhextowords](https://github.com/davecgh/dcrseedhextowords)[^8660] utility to convert a Bitum seed from hex to the seed words needed for importing into wallets.
 
 ---
 
@@ -64,7 +64,7 @@ bitumctl --wallet getbalance "imported" 0 all
 
 #### 7. What is the difference between a testnet and mainnet public key address?
 
-A public key address, also called Pay-To-Pubkey (P2Pk), can be identified with its 2-byte prefix which identifies the network and type. A mainnet public key address starts with the letters `Dk` while a testnet public key address starts with the letters `Tk`. For details on address types, see the see the [address details](../advanced/address-details.md) page.  
+A public key address, also called Pay-To-Pubkey (P2Pk), can be identified with its 2-byte prefix which identifies the network and type. A mainnet public key address starts with the letters `Bk` while a testnet public key address starts with the letters `Tk`. For details on address types, see the see the [address details](../advanced/address-details.md) page.  
 
 ---
 
@@ -77,13 +77,3 @@ If you still have access to the wallet and the passphrase you need to **IMMEDIAT
 If you have live tickets, maintain both wallets until all tickets have voted, then transfer the remaining funds to the new wallet.
 
 You should backup your `wallet.db` file (preferably in a thumb drive stored in a secure location) until all funds have been transferred.
-
----
-
-## <img class="bitum-icon" src="/img/bitum-icons/Sources.svg" /> Sources
-
-[^8660]: Bitum Forum, [Post 8,660](https://forum.bitum.io/threads/534/page-3#post-8660)
-[^9803]: Bitum Forum, [Post 9,803](https://forum.bitum.io/threads/686/#post-9803)
-[^10452]: Bitum Forum, [Post 10,452](https://forum.bitum.io/threads/734/#post-10452)
-[^10657]: Bitum Forum, [Post 10,657](https://forum.bitum.io/threads/483/#post-10657)
-[^10724]: Bitum Forum, [Post 10,724](https://forum.bitum.io/threads/643/page-3#post-10724)

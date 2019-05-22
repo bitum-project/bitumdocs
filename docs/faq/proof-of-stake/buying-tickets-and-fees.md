@@ -51,10 +51,3 @@ Consider a constant ticket price of 10 BITUM. Every block 20 tickets can move in
 In the case of a ticket price drop, a miner is looking to get into the pool before the price changes again. This happens every 144 blocks (about 12 hours). It does not matter if it is in the first block or the 100th. In 144 blocks 2,880 tickets will be accepted with a value of 28,800 BITUM. There is not that sort of volume in the proof-of-stake network at this time. There is one scenario in which you might want to set your fee higher. If the stake cost is about to change in a few blocks, the mempool is not empty and you want to make sure you get the current price, it can help to set your fee a little higher than average to ensure you get in, especially if the next change will mean you miss a ticket.
 
 Continue to [PoS Solo Mining FAQ](solo-voting.md)
-
----
-
-## <img class="bitum-icon" src="/img/bitum-icons/Sources.svg" /> Sources 
-
-[^9987]: Bitum Forum, [Post 9,987](https://forum.bitum.io/threads/582/page-2#post-9987)
-[^10219]: Bitum Forum, [Post 10,219](https://forum.bitum.io/threads/180/page-6#post-10219)

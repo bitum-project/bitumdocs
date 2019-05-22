@@ -34,20 +34,10 @@ The following guides go into depth on key aspects of the Bitum experience:
 **Block Explorers**
 
 * [explorer.bitum.io](https://explorer.bitum.io/)
-* [mainnet.bitum.io](https://mainnet.bitum.io/)
 
 **News/Articles**
 
-* [Bitum Journal](https://xaur.github.io/bitum-news/) - Comprehensive monthly newsletter maintained by some community members
-* [Bitum.org blog](https://blog.bitum.io)
-* [Bitum Medium](https://medium.com/bitum) - Curated content from community members
-* [Press coverage/releases](https://bitum.io/press/)
-* [The Bitum Digest](https://thebitumdigest.com/) - Community blog
-* [Bitum-Canon](https://github.com/maxbron08/Bitum-Canon/) - A collection of readings and resources on Bitum.
-
-**Video**
-
-* [Bitum Youtube channel](https://www.youtube.com/bitumchannel)
+* [Press coverage/releases](https://bitum.io/releases/)
 
 ## Community
 
@@ -57,25 +47,21 @@ In addition to the [Politeia proposals site](https://proposals.bitum.io), the Bi
 
 The following chat platforms are bridged, such that one's messages are relayed to users on the other platforms:
 
-* [Slack](https://slack.bitum.io/)
-* [Matrix (via Riot.im)](https://riot.im/app/#/room/#general:bitum.io)
-* [Discord](https://discord.gg/GJ2GXfz)
-* [IRC](https://webchat.freenode.net/?channels=bitum&uio=d4)
-
-Telegram and KakaoTalk are partially bridged.
+* [Discord](https://discord.gg/AUc79Gk)
+* [Telegram EN](https://t.me/joinchat/BKFg_0yD8VG_8gKKAkESTw)
+* [Telegram RU](https://t.me/joinchat/BKFg_1IYc0W0CPrLhEFnsQ)
+* [Telegram 中文](https://t.me/joinchat/BKFg_0p4g5tDOLo9POGHrA)
 
 ### Social Media
 
-* [Reddit](https://www.reddit.com/r/bitum)
-* [Twitter](https://twitter.com/bitumproject) - Account operated by small group of contributors
-* [Forum](https://forum.bitum.io/)
-* [Facebook](https://facebook.com/bitumproject) 
-* [Weibo](https://weibo.com/BitumProject) 
-* [LinkedIn](https://www.linkedin.com/company/bitumproject/) - Account operated by small group of contributors
+* [Reddit](https://www.reddit.com/r/bitum-project)
+* [Twitter](https://twitter.com/bitum-project)
+* [Facebook](https://facebook.com/bitum-project) 
+* [Weibo](https://weibo.com/bitum-project) 
 
 ### Code
 
-Code for a variety of software projects lives on [GitHub](https://github.com/bitum). Issues can be used to report bugs or suggest features. Pull Requests can be issued to merge work into the main repository branch.
+Code for a variety of software projects lives on [GitHub](https://github.com/bitum-project). Issues can be used to report bugs or suggest features. Pull Requests can be issued to merge work into the main repository branch.
 
 Selected GitHub repositories:
 
@@ -84,9 +70,9 @@ Selected GitHub repositories:
 * [politeia](https://github.com/bitum-project/politeia) and [politeiagui](https://github.com/bitum-project/politeiagui) - Politeia back and front end
 * [bitumdata](https://github.com/bitum-project/bitumdata) - Block explorer
 * [bitumdocs](https://github.com/bitum-project/bitumdocs) - This [docs site](../index.md)
-* [bitumweb](https://github.com/bitum-project/bitumweb) - [Bitum.org](https://bitum.io/)
+* [bitumweb](https://github.com/bitum-project/bitumweb) - [Bitum.io](https://bitum.io/)
 * [dcps](https://github.com/bitum-project/dcps) - Bitum Change Proposals
 
 ### Contributing
 
-Bitum is always looking for new contributors. A basic outline of how this works is: Show up, Find something useful to do, Do it, Get Paid. Do a small bit at first and see if other contributors in that domain appreciate it. This [recruitment page](https://www.bitum.io/recruiting/) explains the project's recruitment philosophy and approach in more detail.
+Bitum is always looking for new contributors. A basic outline of how this works is: Show up, Find something useful to do, Do it, Get Paid. Do a small bit at first and see if other contributors in that domain appreciate it. This [recruitment page](https://bitum.io/recruiting/) explains the project's recruitment philosophy and approach in more detail.

@@ -39,7 +39,7 @@ Once you have entered the details of your transaction, the estimated fee and tra
 ### Receive
 
 This is where you can generate wallet addresses to give to other people so they can
-send you BITUM. The address is displayed in the blue text box - it's the line that starts with Ds, or Ts on testnet. Simply choose the account you want funds to go to and select the **Generate New Address** button.
+send you BITUM. The address is displayed in the blue text box - it's the line that starts with B1, or Ts on testnet. Simply choose the account you want funds to go to and select the **Generate New Address** button.
 You can select the clipboard icon to copy the address and share it with the person sending you BITUM.
 Bitum addresses can be used as many times as you want, but for privacy reasons it's best to generate a new one for each transaction. There's around 1.4E48 (that's 14 followed by 47 zeroes) addresses available so you don't need to worry about running out.
 

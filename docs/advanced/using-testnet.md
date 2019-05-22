@@ -33,20 +33,3 @@ On the first launch of `bitumd --testnet`, `bitumd` will begin downloading the t
 Before you're able to launch `bitumwallet` with the `--testnet` flag, you must create a separate testnet wallet using the `bitumwallet --testnet --create` command. The steps are the same as those found in the [bitumwallet Setup Guide](../wallets/cli/bitumwallet-setup.md).
 
 To issue commands to both `bitumwallet` and `bitumd`, you must also add the `--testnet` flag to any of the `bitumctl` commands that you use. E.g. you would issue the `bitumctl --testnet --wallet getbalance` command to check your testnet balance.
-
----
-
-## Acquiring Testnet Coins
-
-You can acquire coins through the [Bitum Testnet Faucet](https://faucet.bitum.io). Please return any coins to the address listed at the bottom of that page when you're done playing with the testnet.
-
----
-
-## Testnet Voting Service Providers (VSP)
-
-To experiment with staking and voting with a Voting Service Provider (VSP), you'll need to sign up for a testnet VSP. 
-
-- [https://testnet.bitumvoting.com](https://testnet.bitumvoting.com)
-- [https://test-bitumpool.dittrex.com](https://test-bitumpool.dittrex.com)
-- [https://teststakepool.bitum.io](https://teststakepool.bitum.io)
-- [https://test.stakey.net](https://test.stakey.net)
