@@ -33,7 +33,7 @@ extra:
     - type: 'weibo'
       link: 'https://weibo.com/bitum-project'
 repo_url: https://github.com/bitum-project/bitumdocs
-repo_name: bitum/bitumdocs
+repo_name: bitum-project/bitumdocs
 markdown_extensions:
   - markdown.extensions.footnotes
   - markdown.extensions.smarty
