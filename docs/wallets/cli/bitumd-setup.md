@@ -44,7 +44,7 @@ The first time launching `bitumd`, it will connect to the Bitum network and begi
     You will see a line at the start like this:
 
     ```no-highlight
-    22:58:04 2016-02-09 [INF] BMGR: Syncing to block height 617 from peer 104.236.167.133:9108
+    22:58:04 2016-02-09 [INF] BMGR: Syncing to block height 617 from peer 104.236.167.133:9208
     ```
 
     Then, as it continues to download blocks, you will see lines like this:

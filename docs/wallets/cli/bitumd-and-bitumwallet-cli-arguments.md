@@ -27,7 +27,7 @@ bitumd --logdir=/my/custom/log/directory
     `-a` or `--addpeer=`              | Add a peer to connect with at startup
             `--connect=`              | Connect only to the specified peers at startup
             `--nolisten`              | Disable listening for incoming connections -- **NOTE:** Listening is automatically disabled if the `--connect` or `--proxy` options are used without also specifying listen interfaces via `--listen`
-            `--listen=`               | Add an interface/port to listen for connections (default all interfaces port: 9108, testnet: 19108)
+            `--listen=`               | Add an interface/port to listen for connections (default all interfaces port: 9208, testnet: 19208)
             `--maxsameip=`            | Max number of connections with the same IP -- 0 to disable (default: 5)
             `--maxpeers=`             | Max number of inbound and outbound peers (default: 125)
             `--nobanning`             | Disable banning of misbehaving peers
@@ -38,7 +38,7 @@ bitumd --logdir=/my/custom/log/directory
     `-P` or `--rpcpass=`              | Password for RPC connections
             `--rpclimituser=`         | Username for limited RPC connections
             `--rpclimitpass=`         | Password for limited RPC connections
-            `--rpclisten=`            | Add an interface/port to listen for RPC connections (default port: 9109, testnet: 19109)
+            `--rpclisten=`            | Add an interface/port to listen for RPC connections (default port: 9209, testnet: 19209)
             `--rpccert=`              | File containing the certificate file (default: `~/.bitumd/rpc.cert`)
             `--rpckey=`               | File containing the certificate key (default: `~/.bitumd/rpc.key`)
             `--rpcmaxclients=`        | Max number of RPC clients for standard connections (default: 10)

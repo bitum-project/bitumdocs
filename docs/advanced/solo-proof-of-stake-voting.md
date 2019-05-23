@@ -204,7 +204,7 @@ You are free to close your `SSH` session and everything that is in a `tmux` sess
 
 If using a VSP, now is the time to clone this instance into another geographic region. Otherwise, repeat the above steps on your other remote servers with one change - when creating the wallet choose "restore" and reuse the seed you generated for the first voting wallet.
 
-You will also want to open up TCP port `9108` for all your voting nodes so they have better connectivity to the Bitum network. On AWS this is done in the "Security Groups" section under "Networking" in EC2. On Google Cloud you can run `gcloud compute firewall-rules create bitumd --allow tcp:9108 --source-ranges=0.0.0.0/0` in the console to achieve the same thing.
+You will also want to open up TCP port `9208` for all your voting nodes so they have better connectivity to the Bitum network. On AWS this is done in the "Security Groups" section under "Networking" in EC2. On Google Cloud you can run `gcloud compute firewall-rules create bitumd --allow tcp:9208 --source-ranges=0.0.0.0/0` in the console to achieve the same thing.
 
 ---
 

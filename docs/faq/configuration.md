@@ -8,15 +8,15 @@
 
 |             |Mainnet|Testnet|Simnet
 ---           |---   |---    |---
-*Peer to Peer*| 9108 | 19108 | 18555
-*RPC Server*  | 9109 | 19109 | 19556
+*Peer to Peer*| 9208 | 19208 | 18555
+*RPC Server*  | 9209 | 19209 | 19556
 
 ##### `bitumwallet`
 
 |                |Mainnet|Testnet|Simnet
 ---              |---   |---    |---
-*JSON-RPC Server*| 9110 | 19110 | 19557
-*gRPC Server*    | 9111 | 19111 | 19558
+*JSON-RPC Server*| 9210 | 19210 | 19557
+*gRPC Server*    | 9211 | 19211 | 19558
 
 ---
 
